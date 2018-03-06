@@ -1,6 +1,7 @@
 <Project Sdk="RoslynTools.RepoToolset">
   <PropertyGroup>
     <TargetFrameworks>net46;netcoreapp1.0</TargetFrameworks>
+    <TargetFrameworks Condition="'$(OS)' != 'Windows_NT' or '$(DotNetBuildFromSource)' == 'true'">netcoreapp1.0</TargetFrameworks>
 
     <!-- Using an explicit nuspec file since NuGet Pack target currently doesn't support including dependencies in tools packages -->
     <IsPackable>true</IsPackable>

@@ -24,7 +24,5 @@
     <file src="sdk\*.*" target="sdk" />
     <file src="tools\*.*" target="tools" />
     <file src="$ArtifactsBinDir$RoslynTools.BuildTasks\netcoreapp1.0\*.*" target="tools\tasks\netcoreapp1.0" />
-    <file src="$ArtifactsBinDir$RoslynTools.BuildTasks\net46\RoslynTools.*.*" target="tools\tasks\net46" />
-    <file src="$ArtifactsBinDir$RoslynTools.BuildTasks\net46\System.*.*" target="tools\tasks\net46" />
   </files>
 </package>
